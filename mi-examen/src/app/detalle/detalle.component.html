@@ -1,0 +1,15 @@
+<div class="container mt-4">
+  <h2>Información Detallada del Estudiante</h2>
+  <ul class="list-group mt-3 mb-3">
+    <li class="list-group-item"><strong>ID:</strong> {{ estudiante.id }}</li>
+    <li class="list-group-item"><strong>Nombre:</strong> {{ estudiante.nombre }}</li>
+    <li class="list-group-item"><strong>Nota 1:</strong> {{ estudiante.nota1 }}</li>
+    <li class="list-group-item"><strong>Nota 2:</strong> {{ estudiante.nota2 }}</li>
+    <li class="list-group-item"><strong>Nota 3:</strong> {{ estudiante.nota3 }}</li>
+    <li class="list-group-item"><strong>Suma de notas:</strong> {{ estudiante.suma }}</li>
+    <li class="list-group-item"><strong>Promedio:</strong> {{ estudiante.promedio }}</li>
+    <li class="list-group-item"><strong>Estado Académico:</strong> {{ estudiante.estado }}</li>
+    <li class="list-group-item"><strong>Observación:</strong> {{ estudiante.observacion }}</li>
+  </ul>
+  <button class="btn btn-secondary" (click)="volver()">Regresar</button>
+</div>
